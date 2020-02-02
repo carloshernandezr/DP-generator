@@ -4,6 +4,7 @@
   "description": "This, take git hub profile, and crate a new pdf file.",
   "main": "index.js",
   "dependencies": {
+    "axios": "^0.19.2",
     "inquirer": "^7.0.4"
   },
   "devDependencies": {},
