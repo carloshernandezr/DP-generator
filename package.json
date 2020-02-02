@@ -1,0 +1,26 @@
+{
+  "name": "dp-generator",
+  "version": "1.0.0",
+  "description": "This, take git hub profile, and crate a new pdf file.",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer": "^7.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloshernandezr/DP-generator.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Carlos Hernandez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carloshernandezr/DP-generator/issues"
+  },
+  "homepage": "https://github.com/carloshernandezr/DP-generator#readme"
+}
