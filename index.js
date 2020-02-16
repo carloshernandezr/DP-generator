@@ -4,6 +4,7 @@ const axios = require("axios");
 const inquirer = require("inquirer");
 const util = require("util"); 
 var pdf = require('html-pdf');
+var options = { format: 'Letter' };
 const generateHTML = require("./generateHTML");
 const writeFile = util.promisify(fs.writeFile);
 
@@ -28,7 +29,7 @@ async function init() {
 
     // create PDf
   
-    pdf.create(htmlG).toFile(`${username}.pdf`, function(err, res){
+    pdf.create(htmlG, options).toFile(`${username}.pdf`, function(err, res){
       if (err) return console.log(err);
       console.log(res);
     });
